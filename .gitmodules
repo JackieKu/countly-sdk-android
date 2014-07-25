@@ -1,0 +1,3 @@
+[submodule "openudid/src/org/OpenUDID"]
+	path = openudid/src/org/OpenUDID
+	url = ../OpenUDID

@@ -20,12 +20,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <service android:name="org.OpenUDID.OpenUDID_service">
+            <intent-filter>
+                <action android:name="org.OpenUDID.GETUDID"/>
+            </intent-filter>
+        </service>
     </application>
-
-    <service android:name="org.OpenUDID.OpenUDID_service">
-        <intent-filter>
-            <action android:name="org.OpenUDID.GETUDID"/>
-        </intent-filter>
-    </service>
-
 </manifest>
